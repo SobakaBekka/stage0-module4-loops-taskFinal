@@ -6,8 +6,7 @@ public class Power {
         for (int i = 0; i < power; i++) {
             result *= numberToPrint;
         }
-        System.out.println(numberToPrint + " to the power of " + power + " is: " + result);
-
+        System.out.println(result);
     }
 
     public static void main(String[] args) {
